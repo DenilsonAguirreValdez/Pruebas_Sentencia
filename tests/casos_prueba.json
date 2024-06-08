@@ -1,0 +1,30 @@
+[
+    {
+        "input": {
+            "precio": 100,
+            "es_vip": true
+        },
+        "expected_output": 80.0
+    },
+    {
+        "input": {
+            "precio": 100,
+            "es_vip": false
+        },
+        "expected_output": 90.0
+    },
+    {
+        "input": {
+            "precio": 200,
+            "es_vip": true
+        },
+        "expected_output": 160.0
+    },
+    {
+        "input": {
+            "precio": 200,
+            "es_vip": false
+        },
+        "expected_output": 180.0
+    }
+]
